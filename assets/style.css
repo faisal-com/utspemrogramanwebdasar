@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html, body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+header {
+    background: #EADBC8;
+    height: 10%;
+    top: 0;
+    position: sticky;
+}
+
+.logo {
+    padding: 20px;
+}
+
+nav {
+    float: right;
+    margin-right: 100px;
+    margin-top: -40px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    background-color: #FEFAF6;
+    padding: 30px;
+    height: 90%;
+
+}
+
+article {
+    float: left;
+    box-shadow: 0 0 5px #000;
+    width: 70%;
+    padding: 10px;
+    margin-top: 20px;
+    height: 90%;
+}
+
+#fotoprofil {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+section p {
+    font-size: larger;
+}
+
+.paragraf1 {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.paragraf2 {
+    padding: 30px;
+    
+}
+
+aside {
+    float: right;
+    box-shadow: 0 0 5px #000;
+    width: 25%;
+    height: 90%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#gambarartikel {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.konten1 {
+    margin-top: 20px;
+    box-shadow: 0 0 5px #000;
+    padding: 10px;
+}
+
+.konten2 {
+    margin-top: 20px;
+    box-shadow: 0 0 5px #000;
+    padding: 10px;
+}
+
+.konten3 {
+    margin-top: 20px;
+    box-shadow: 0 0 5px #000;
+    padding: 10px;
+}
+
+.konten4 {
+    margin-top: 20px;
+    box-shadow: 0 0 5px #000;
+    padding: 10px;
+}
+
+#link {
+    color: gray;
+}
+
+#link:hover {
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    height: 10%;
+    background-color: #DAC0A3;
+    padding: 15px;
+}
